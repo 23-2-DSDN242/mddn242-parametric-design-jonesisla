@@ -15,19 +15,31 @@ const canvasHeight = 500;
 const letterA = {
   "size": 80,
   "offsetx": 0,
-  "offsety": 35
+  "offsety": -10,
+  "start" : 180,
+  "stop" : 360
 }
 
 const letterB = {
-  "size": 150,
-  "offsetx": 0,
-  "offsety": -145
+  "size": 57,
+  "offsetx": 5,
+  "offsety": 30,
+  "start" : 270,
+  "stop" : 360+90,
+
+  "1size": 57,
+  "1offsetx": 5,
+  "1offsety": -30,
+  "1start" : 270,
+  "1stop" : 360+90
 }
 
 const letterC = {
   "size": 100,
-  "offsetx": 30,
-  "offsety": 0
+  "offsetx": -10,
+  "offsety": 0,
+  "start" : 90,
+  "stop" : 270
 }
 
 const backgroundColor  = "#caf0f8";
@@ -65,15 +77,24 @@ function draw () {
 
 function drawLetter(posx, posy, letterData) {
   // determine parameters for second circle
-  let size2 = letterData["size"];
-  let pos2x = posx + letterData["offsetx"];
-  let pos2y = posy + letterData["offsety"];
+  let size1 = letterData["size"];
+  let pos1x = posx + letterData["offsetx"];
+  let pos1y = posy + letterData["offsety"];
+  let start1 = radians(letterData["start"]);
+  let stop1 = radians(letterData["stop"]);
+
+  let size2= letterData["1size"];
+  let pos2x = posx + letterData["1offsetx"];
+  let pos2y = posy + letterData["1offsety"];
+  let start2 = radians(letterData["1start"]);
+  let stop2 = radians(letterData["1stop"]);
 
   // draw two circles
   fill(darkBlue);
   ellipse(posx, posy, 150, 150);
   fill(lightBlue);
-  ellipse(pos2x, pos2y, size2, size2);
+  arc(pos1x, pos1y, size1, size1, start1, stop1);
+  arc(pos2x, pos2y, size2, size2, start2, stop2);
 }
 
 function keyTyped() {
