@@ -5,34 +5,67 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    "size": 40,
+    // "size": 80,
+    // "offsetx": 0,
+    // "offsety": -10
+    "size": 60,
     "offsetx": 0,
-    "offsety": 17
+    "offsety": 0,
+    "start" : 180,
+    "stop" : 360
+
   },
   "B": {
-    "size": 75,
-    "offsetx": 0,
-    "offsety": -70
+    // "size": 75,
+    // "offsetx": 0,
+    // "offsety": -70
+    "size": 37,
+    "offsetx": 5,
+    "offsety": 17,
+    "start" : 270,
+    "stop" : 360+90,
+    
+    "1size": 37,
+    "1offsetx": 5,
+    "1offsety": -20,
+    "1start" : 270,
+    "1stop" : 360+90
   },
   "C": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    // "size": 50,
+    // "offsetx": 15,
+    // "offsety": 0
+    "size": 70,
+    "offsetx": 0,
+    "offsety": 0,
+    "start" : 90,
+    "stop" : 270
   },
   "D": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "size": 70,
+    "offsetx": 0,
+    "offsety": 0,
+    "start": 270,
+    "stop": 90
   },
   "E": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "size": 60,
+    "offsetx": 0,
+    "offsety": 0,
+    "start" : 180,
+    "stop" : 360,
+
+    "1size": 42,
+    "1offsetx": -5,
+    "1offsety": 12,
+    "1start" : 28.8,
+    "1stop" : 176.4
   },
   "F": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    "2offsetx": 0,
+    "2offsety": 0,
+    "20offsetx": 90,
+    "20offsety": 0,
   },
   "G": {
     "size": 50,
