@@ -42,11 +42,16 @@ const alphabet = {
     "stop" : 270
   },
   "D": {
-    "size": 70,
+    "size": 60,
     "offsetx": 0,
     "offsety": 0,
-    "start": 270,
-    "stop": 90
+    "start" : 90,
+    "stop" : 270,
+    
+    "2offsetx": 30,
+    "2offsety": -100,
+    "2offsetw": -30,
+    "2offseth": 0
   },
   "E": {
     "size": 60,
@@ -62,15 +67,48 @@ const alphabet = {
     "1stop" : 176.4
   },
   "F": {
-    "2offsetx": 0,
-    "2offsety": 0,
-    "20offsetx": 90,
-    "20offsety": 0,
+    //top arc
+    "size": 85,
+    "offsetx": -3,
+    "offsety": -60,
+    "start" : 180,
+    "stop" : 360,
+    //stalk
+    "2offsetx": -45,
+    "2offsety": -70,
+    "2offsetw": -30,
+    "2offseth": -30,
+    //top cut out
+    "3size": 55,
+    "3offsetx": 2,
+    "3offsety": -57,
+    "3start" : 180,
+    "3stop" : 360,
+    //bottom arc
+    "1size": 75,
+    "1offsetx": 3,
+    "1offsety": -10,
+    "1start" : 180,
+    "1stop" : 360,
+    //bottom cut out
+    "4size": 55,
+    "4offsetx": 3,
+    "4offsety": -9,
+    "4start" : 180,
+    "4stop" : 360,
   },
   "G": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //g
+    "size": 60,
+    "offsetx": 0,
+    "offsety": 0,
+    "start" : 90,
+    "stop" : 270,
+    //stalk
+    "2offsetx": 30,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": 0
   },
   "H": {
     "size": 50,

@@ -33,32 +33,56 @@ function drawLetter(letterData) {
   // ellipse(pos2x, pos2y, size2, size2);
 angleMode(DEGREES);
 
-  //test
+  //basic arc
   let size1 = letterData["size"];
   let posx1 = 50 + letterData["offsetx"];
   let posy1 = 150 + letterData["offsety"];
   let start1 = (letterData["start"]);
   let stop1 = (letterData["stop"]);
 
+  //basic arc no.2
   let size2= letterData["1size"];
   let posx2 = 50 + letterData["1offsetx"];
   let posy2 = 150 + letterData["1offsety"];
   let start2 = (letterData["1start"]);
   let stop2 = (letterData["1stop"]);
 
+  //rectangle
   let posx3 = 50 + letterData["2offsetx"];
   let posy3 = 150 + letterData["2offsety"];
-  let posx30 = 50 + letterData["20offsetx"];
-  let posy30 = 150 + letterData["20offsety"];
+  let posw3 = 50 + letterData["2offsetw"];
+  let posh3 = 150 + letterData["2offseth"];
+
+  //arc for cut outs
+  let size4= letterData["3size"];
+  let posx4 = 50 + letterData["3offsetx"];
+  let posy4 = 150 + letterData["3offsety"];
+  let start4 = (letterData["3start"]);
+  let stop4 = (letterData["3stop"]);
+
+  //arc for cut outs n0.2
+  let size5= letterData["4size"];
+  let posx5 = 50 + letterData["4offsetx"];
+  let posy5 = 150 + letterData["4offsety"];
+  let start5 = (letterData["4start"]);
+  let stop5 = (letterData["4stop"]);
   
 
-  // draw two circles
+  // dark blue arcs
   fill(darkBlue);
   ellipse(50, 150, 90, 90);
+  //light blue arcs and rectangle
   fill(lightBlue);
-  arc(posx1, posy1, size1, size1, start1, stop1);
   arc(posx2, posy2, size2, size2, start2, stop2);
-  line(posx3, posx30, posy3, posy30);
+  rect(posx3, posy3, posw3, posh3, 20);
+  arc(posx1, posy1, size1, size1, start1, stop1);
+  //cut out arcs
+  fill("#caf0f8");
+  arc(posx4, posy4, size4, size4, start4, stop4);
+  //dark blue cut outs
+  fill(darkBlue);
+  noStroke();
+  arc(posx5, posy5, size5, size5, start5, stop5);
 
 //end test
 
