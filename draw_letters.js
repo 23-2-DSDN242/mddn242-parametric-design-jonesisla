@@ -53,6 +53,12 @@ angleMode(DEGREES);
   let posw3 = 50 + letterData["2offsetw"];
   let posh3 = 150 + letterData["2offseth"];
 
+  //rectangle n0.2
+  let posx6 = 50 + letterData["5offsetx"];
+  let posy6 = 150 + letterData["5offsety"];
+  let posw6 = 50 + letterData["5offsetw"];
+  let posh6 = 150 + letterData["5offseth"];
+
   //arc for cut outs
   let size4= letterData["3size"];
   let posx4 = 50 + letterData["3offsetx"];
@@ -76,6 +82,7 @@ angleMode(DEGREES);
   arc(posx2, posy2, size2, size2, start2, stop2);
   rect(posx3, posy3, posw3, posh3, 20);
   arc(posx1, posy1, size1, size1, start1, stop1);
+  rect(posx6, posy6, posw6, posh6, 20);
   //cut out arcs
   fill("#caf0f8");
   arc(posx4, posy4, size4, size4, start4, stop4);

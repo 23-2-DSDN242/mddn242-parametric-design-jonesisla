@@ -5,9 +5,7 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    // "size": 80,
-    // "offsetx": 0,
-    // "offsety": -10
+    //a
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
@@ -16,25 +14,20 @@ const alphabet = {
 
   },
   "B": {
-    // "size": 75,
-    // "offsetx": 0,
-    // "offsety": -70
-    "size": 37,
-    "offsetx": 5,
-    "offsety": 17,
+    // arc
+    "size": 60,
+    "offsetx": 0,
+    "offsety": 0,
     "start" : 270,
-    "stop" : 360+90,
-    
-    "1size": 37,
-    "1offsetx": 5,
-    "1offsety": -20,
-    "1start" : 270,
-    "1stop" : 360+90
+    "stop" : 90,
+    //stalk
+    "2offsetx": -50,
+    "2offsety": -100,
+    "2offsetw": -30,
+    "2offseth": 0
   },
   "C": {
-    // "size": 50,
-    // "offsetx": 15,
-    // "offsety": 0
+    //c
     "size": 70,
     "offsetx": 0,
     "offsety": 0,
@@ -42,24 +35,26 @@ const alphabet = {
     "stop" : 270
   },
   "D": {
+    //d arc
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
     "start" : 90,
     "stop" : 270,
-    
+    //stalk
     "2offsetx": 30,
     "2offsety": -100,
     "2offsetw": -30,
     "2offseth": 0
   },
   "E": {
+    //e
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
     "start" : 180,
     "stop" : 360,
-
+    //e arc
     "1size": 42,
     "1offsetx": -5,
     "1offsety": 12,
@@ -99,41 +94,117 @@ const alphabet = {
   },
   "G": {
     //g
-    "size": 60,
-    "offsetx": 0,
-    "offsety": 0,
-    "start" : 90,
-    "stop" : 270,
+    "1size": 60,
+    "1offsetx": 0,
+    "1offsety": 0,
+    "1start" : 90,
+    "1stop" : 270,
     //stalk
     "2offsetx": 30,
     "2offsety": -50,
     "2offsetw": -30,
-    "2offseth": 0
+    "2offseth": 0,
+    //g arc
+    "size": 85,
+    "offsetx": 8.5,
+    "offsety": 80,
+    "start" : 360,
+    "stop" : 180,
+    //g arc cut out
+    "3size": 55,
+    "3offsetx": 3,
+    "3offsety": 80,
+    "3start" : 360,
+    "3stop" : 180,
+
   },
   "H": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //stalk
+    "2offsetx": -50,
+    "2offsety": -100,
+    "2offsetw": -30,
+    "2offseth": 0,
+    //arc
+    "1size": 75,
+    "1offsetx": 3,
+    "1offsety": -10,
+    "1start" : 180,
+    "1stop" : 360,
+    //cut out
+    "4size": 50,
+    "4offsetx": 0,
+    "4offsety": -5,
+    "4start" : 180,
+    "4stop" : 360,
+    //baby stalk
+    "5offsetx": 24,
+    "5offsety": -25,
+    "5offsetw": -30,
+    "5offseth": -75,
   },
   "I": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //i stalk
+    "5offsetx": -10,
+    "5offsety": -15,
+    "5offsetw": -30,
+    "5offseth": -90,
+    //dot
+    "1size": 20,
+    "1offsetx": 0,
+    "1offsety": -30,
+    "1start" : 0,
+    "1stop" : 360,
   },
   "J": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //j stalk
+    "2offsetx": -10,
+    "2offsety": -15,
+    "2offsetw": -30,
+    "2offseth": -40,
+    //dot
+    "1size": 20,
+    "1offsetx": 0,
+    "1offsety": -30,
+    "1start" : 0,
+    "1stop" : 360,
+    //j arc
+    "size": 65,
+    "offsetx": -23,
+    "offsety": 79,
+    "start" : 360,
+    "stop" : 180,
+    //j arc cut out
+    "3size": 30,
+    "3offsetx": -25,
+    "3offsety": 75,
+    "3start" : 360,
+    "3stop" : 180,
   },
   "K": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //stalk
+    "2offsetx": -45,
+    "2offsety": -55,
+    "2offsetw": -30,
+    "2offseth": -45,
+    //k top
+    "1size": 70,
+    "1offsetx": -15,
+    "1offsety": -5,
+    "1start" : 305,
+    "1stop" : -15,
+    //k bottom
+    "size": 70,
+    "offsetx": -15,
+    "offsety": 5,
+    "start" : 15,
+    "stop" : -305,
   },
   "L": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //l stalk
+    "2offsetx": -10,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -45,
   },
   "M": {
     "size": 50,
@@ -141,9 +212,18 @@ const alphabet = {
     "offsety": 0
   },
   "N": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //n
+    "size": 60,
+    "offsetx": 0,
+    "offsety": 5,
+    "start" : 180,
+    "stop" : 0,
+    //n cut out
+    "4size": 30,
+    "4offsetx": 0,
+    "4offsety": 5,
+    "4start" : 180,
+    "4stop" : 0,
   },
   "O": {
     "size": 50,
