@@ -5,12 +5,23 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    //a
+    //old a
+    // "size": 60,
+    // "offsetx": 0,
+    // "offsety": 0,
+    // "start" : 180,
+    // "stop" : 360
+    //a arc
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
-    "start" : 180,
-    "stop" : 360
+    "start" : 90,
+    "stop" : 270,
+    //stalk
+    "2offsetx": 30,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -50
 
   },
   "B": {
@@ -207,9 +218,30 @@ const alphabet = {
     "2offseth": -45,
   },
   "M": {
+    //m right
     "size": 50,
     "offsetx": 15,
-    "offsety": 0
+    "offsety": 10,
+    "start" : 180,
+    "stop" : 0,
+    //m right cut out
+    "4size": 25,
+    "4offsetx": 15,
+    "4offsety": 12,
+    "4start" : 180,
+    "4stop" : 0,
+    //m left
+    "1size": 50,
+    "1offsetx": -15,
+    "1offsety": 10,
+    "1start" : 180,
+    "1stop" : 0,
+    //m left cut out
+    "6size": 25,
+    "6offsetx": -15,
+    "6offsety": 12,
+    "6start" : 180,
+    "6stop" : 0,
   },
   "N": {
     //n
@@ -227,29 +259,29 @@ const alphabet = {
   },
   "O": {
     //o bottom
-    "size": 60,
+    "size": 70,
     "offsetx": 0,
     "offsety": 0,
     "start" : 0,
     "stop" : 180,
     //0 bottom cut out
-    "4size": 30,
-    "4offsetx": 0,
-    "4offsety": 0,
-    "4start" : 0,
-    "4stop" : 180,
+    // "4size": 35,
+    // "4offsetx": 0,
+    // "4offsety": 0,
+    // "4start" : 0,
+    // "4stop" : 180,
     //o top
-    "1size": 60,
+    "1size": 70,
     "1offsetx": 0,
     "1offsety": 0,
     "1start" : 180,
     "1stop" : 0,
     //o top cut out
-    "6size": 30,
-    "6offsetx": 0,
-    "6offsety": 0,
-    "6start" : 180,
-    "6stop" : 0,
+    // "6size": 35,
+    // "6offsetx": 0,
+    // "6offsety": 0,
+    // "6start" : 180,
+    // "6stop" : 0,
     
   },
   "P": {
@@ -351,81 +383,319 @@ const alphabet = {
   },
   "V": {
     //v
-    "size": 50,
+    "size": 70,
     "offsetx": 0,
     "offsety": 0,
     "start" : 300,
     "stop" : 240,
   },
   "W": {
+    //w right
     "size": 50,
     "offsetx": 15,
-    "offsety": 0
+    "offsety": -10,
+    "start" : 0,
+    "stop" : 180,
+    //w right cut out
+    "4size": 25,
+    "4offsetx": 15,
+    "4offsety": -12,
+    "4start" : 0,
+    "4stop" : 180,
+    //w left
+    "1size": 50,
+    "1offsetx": -15,
+    "1offsety": -10,
+    "1start" : 0,
+    "1stop" : 180,
+    //w left cut out
+    "6size": 25,
+    "6offsetx": -15,
+    "6offsety": -12,
+    "6start" : 0,
+    "6stop" : 180,
   },
   "X": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //x right
+    "size": 70,
+    "offsetx": 0,
+    "offsety": 0,
+    "start" : 310,
+    "stop" : 45,
+    //x right cut out
+    "4size": 40,
+    "4offsetx": 15,
+    "4offsety": 0,
+    "4start" : 310,
+    "4stop" : 45,
+    //x left
+    "1size": 70,
+    "1offsetx": 0,
+    "1offsety": 0,
+    "1start" : 130,
+    "1stop" : 225,
+    //x left cut out
+    "6size": 40,
+    "6offsetx": -15,
+    "6offsety": 0,
+    "6start" : 130,
+    "6stop" : 225,
   },
   "Y": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //stalk
+    "5offsetx": -8,
+    "5offsety": -7,
+    "5offsetw": -35,
+    "5offseth": -100,
+    //y left
+    "1size": 70,
+    "1offsetx": 0,
+    "1offsety": 5,
+    "1start" : 300,
+    "1stop" : 335,
+    //y right
+    "size": 70,
+    "offsetx": 0,
+    "offsety": 5,
+    "start" : 200,
+    "stop" : 235,
   },
   "Z": {
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 0
+    //z right
+    "size": 80,
+    "offsetx": -10,
+    "offsety": 25,
+    "start" : 285,
+    "stop" : 0,
+    //z right cut out
+    "4size": 45,
+    "4offsetx": 3,
+    "4offsety": 17,
+    "4start" : 285,
+    "4stop" : 0,
+    //z left
+    "1size": 80,
+    "1offsetx": 15,
+    "1offsety": -30,
+    "1start" : 105,
+    "1stop" : 180,
+    //z left cut out
+    "6size": 45,
+    "6offsetx": 0,
+    "6offsety": -20,
+    "6start" : 105,
+    "6stop" : 180,
   },
   "0": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+     //0 bottom
+     "size": 50,
+     "offsetx": 0,
+     "offsety": 0,
+     "start" : 0,
+     "stop" : 180,
+     //0 bottom cut out
+     "4size": 25,
+     "4offsetx": 0,
+     "4offsety": 0,
+     "4start" : 0,
+     "4stop" : 180,
+     //0 top
+     "1size": 50,
+     "1offsetx": 0,
+     "1offsety": 0,
+     "1start" : 180,
+     "1stop" : 0,
+     //0 top cut out
+     "6size": 25,
+     "6offsetx": 0,
+     "6offsety": 0,
+     "6start" : 180,
+     "6stop" : 0,
   },
   "1": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    //1
+    "5offsetx": -8,
+    "5offsety": -35,
+    "5offsetw": -35,
+    "5offseth": -80,
+    //1 dash
+    // "size": 60,
+    // "offsetx": 0,
+    // "offsety": -35,
+    // "start" : 140,
+    // "stop" : 150,
   },
   "2": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    //2 right
+    "size": 80,
+    "offsetx": -10,
+    "offsety": 25,
+    "start" : 285,
+    "stop" : 0,
+    //2 right cut out
+    "4size": 45,
+    "4offsetx": 3,
+    "4offsety": 17,
+    "4start" : 285,
+    "4stop" : 0,
+    //2 top
+    "1size": 50,
+    "1offsetx": -10,
+    "1offsety": -5,
+    "1start" : 180,
+    "1stop" : 0,
+    //2 top cut out
+    "6size": 25,
+    "6offsetx": -10,
+    "6offsety": -4,
+    "6start" : 180,
+    "6stop" : 0,
   },
   "3": {
+    // arc
     "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "offsetx": -5,
+    "offsety": -10,
+    "start" : 270,
+    "stop" : 90,
+    // arc
+    "1size": 40,
+    "1offsetx": -5,
+    "1offsety": 15,
+    "1start" : 270,
+    "1stop" : 90,
+    //3 right cut out
+    "4size": 23,
+    "4offsetx": -6,
+    "4offsety": -10,
+    "4start" : 270,
+    "4stop" : 90,
+    //3 left cut out
+    "6size": 23,
+    "6offsetx": -6,
+    "6offsety": 10,
+    "6start" : 270,
+    "6stop" : 90,
   },
   "4": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    //4 right
+    "5offsetx": 3,
+    "5offsety": -35,
+    "5offsetw": -36,
+    "5offseth": -80,
+    //4 left
+    "2offsetx": -23,
+    "2offsety": -35,
+    "2offsetw": -36,
+    "2offseth": -100,
+    //4 dash
+    "size": 80,
+    "offsetx": 15,
+    "offsety": 0,
+    "start" : 160,
+    "stop" : 170,
   },
   "5": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    //4 right
+    "size": 80,
+    "offsetx": -15,
+    "offsety": -25,
+    "start" : 360,
+    "stop" : 65,
+    //4 right cut out
+    "4size": 45,
+    "4offsetx": 2,
+    "4offsety": -15,
+    "4start" : 360,
+    "4stop" : 65,
+    //4 top
+    "1size": 50,
+    "1offsetx": -10,
+    "1offsety": 5,
+    "1start" : 0,
+    "1stop" : 180,
+    //4 top cut out
+    "6size": 25,
+    "6offsetx": -10,
+    "6offsety": 4,
+    "6start" : 0,
+    "6stop" : 180,
   },
   "6": {
+    //0 bottom
     "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "offsetx": 3,
+    "offsety": 10,
+    "start" : 0,
+    "stop" : 360,
+    //0 bottom cut out
+    "4size": 20,
+    "4offsetx": 3,
+    "4offsety": 10,
+    "4start" : 0,
+    "4stop" : 360,
+    //4 left
+    "2offsetx": -18,
+    "2offsety": -30,
+    "2offsetw": -36,
+    "2offseth": -100,
   },
   "7": {
-    "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    //4 right
+    "5offsetx": 3,
+    "5offsety": -35,
+    "5offsetw": -36,
+    "5offseth": -80,
+    //cross
+    "2offsetx": -29,
+    "2offsety": -30,
+    "2offsetw": -3,
+    "2offseth": -135,
   },
   "8": {
+    //0 bottom
     "size": 40,
     "offsetx": 0,
-    "offsety": 17
+    "offsety": -15,
+    "start" : 0,
+    "stop" : 360,
+    //0 bottom cut out
+    "4size": 15,
+    "4offsetx": 0,
+    "4offsety": -15,
+    "4start" : 0,
+    "4stop" : 360,
+    //0 top
+    "1size": 40,
+    "1offsetx": 0,
+    "1offsety": 20,
+    "1start" : 0,
+    "1stop" : 360,
+    //0 top cut out
+    "6size": 15,
+    "6offsetx": 0,
+    "6offsety": 20,
+    "6start" : 0,
+    "6stop" : 360,
   },
   "9": {
+    //0 bottom
     "size": 40,
-    "offsetx": 0,
-    "offsety": 17
+    "offsetx": -3,
+    "offsety": -10,
+    "start" : 0,
+    "stop" : 360,
+    //0 bottom cut out
+    "4size": 20,
+    "4offsetx": -3,
+    "4offsety": -10,
+    "4start" : 0,
+    "4stop" : 360,
+    //4 left
+    "2offsetx": 0,
+    "2offsety": -20,
+    "2offsetw": -36,
+    "2offseth": -100,
   }
 
 }
