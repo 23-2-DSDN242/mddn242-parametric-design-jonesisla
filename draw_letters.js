@@ -72,6 +72,13 @@ angleMode(DEGREES);
   let posy5 = 150 + letterData["4offsety"];
   let start5 = (letterData["4start"]);
   let stop5 = (letterData["4stop"]);
+
+  //arc for cut outs n0.3
+  let size7= letterData["6size"];
+  let posx7 = 50 + letterData["6offsetx"];
+  let posy7 = 150 + letterData["6offsety"];
+  let start7 = (letterData["6start"]);
+  let stop7 = (letterData["6stop"]);
   
 
   // dark blue arcs
@@ -90,6 +97,7 @@ angleMode(DEGREES);
   fill(darkBlue);
   noStroke();
   arc(posx5, posy5, size5, size5, start5, stop5);
+  arc(posx7, posy7, size7, size7, start7, stop7);
 
 //end test
 
