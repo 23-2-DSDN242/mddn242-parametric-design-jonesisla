@@ -11,20 +11,20 @@ const alphabet = {
     "offsety": 0,
     "start" : 90,
     "stop" : 270,
-    //stalk
+    //a stalk
     "2offsetx": 30,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -50,
   },
   "B": {
-    // arc
+    //b arc
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
     "start" : 270,
     "stop" : 90,
-    //stalk
+    //b stalk
     "2offsetx": -50,
     "2offsety": -100,
     "2offsetw": -30,
@@ -51,7 +51,7 @@ const alphabet = {
     "offsety": 0,
     "start" : 90,
     "stop" : 270,
-    //stalk
+    //d stalk
     "2offsetx": 30,
     "2offsety": -100,
     "2offsetw": -30,
@@ -70,7 +70,7 @@ const alphabet = {
     "1offsety": 10,
     "1start" : 360,
     "1stop" : 180,
-    //cut out
+    //e cut out
     "4size": 25,
     "4offsetx": 0,
     "4offsety": 10,
@@ -78,24 +78,24 @@ const alphabet = {
     "4stop" : 180,
   },
   "F": {
-    //top arc
+    //f top arc
     "size": 85,
     "offsetx": -3,
     "offsety": -60,
     "start" : 180,
     "stop" : 360,
-    //stalk
+    //f stalk
     "2offsetx": -45,
     "2offsety": -70,
     "2offsetw": -30,
     "2offseth": -30,
-    //top cut out
+    //f top cut out
     "3size": 55,
     "3offsetx": 2,
     "3offsety": -57,
     "3start" : 180,
     "3stop" : 360,
-    //cross
+    //f cross
     "5offsetx": -29,
     "5offsety": -30,
     "5offsetw": 10,
@@ -108,7 +108,7 @@ const alphabet = {
     "1offsety": 0,
     "1start" : 90,
     "1stop" : 270,
-    //stalk
+    //g stalk
     "2offsetx": 30,
     "2offsety": -50,
     "2offsetw": -30,
@@ -128,24 +128,24 @@ const alphabet = {
 
   },
   "H": {
-    //stalk
+    //h stalk
     "2offsetx": -50,
     "2offsety": -100,
     "2offsetw": -30,
     "2offseth": 0,
-    //arc
+    //h arc
     "1size": 75,
     "1offsetx": 3,
     "1offsety": -10,
     "1start" : 180,
     "1stop" : 360,
-    //cut out
+    //h cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": -5,
     "4start" : 180,
     "4stop" : 360,
-    //baby stalk
+    //h baby stalk
     "5offsetx": 24,
     "5offsety": -25,
     "5offsetw": -30,
@@ -157,7 +157,7 @@ const alphabet = {
     "5offsety": -15,
     "5offsetw": -30,
     "5offseth": -90,
-    //dot
+    //i dot
     "1size": 20,
     "1offsetx": 0,
     "1offsety": -30,
@@ -170,7 +170,7 @@ const alphabet = {
     "2offsety": -15,
     "2offsetw": -30,
     "2offseth": -40,
-    //dot
+    //j dot
     "1size": 20,
     "1offsetx": 0,
     "1offsety": -30,
@@ -190,7 +190,7 @@ const alphabet = {
     "3stop" : 180,
   },
   "K": {
-    //stalk
+    //k stalk
     "2offsetx": -45,
     "2offsety": -55,
     "2offsetw": -30,
@@ -216,29 +216,29 @@ const alphabet = {
     "2offseth": 0,
   },
   "M": {
-    //stalk
+    //m stalk
     "2offsetx": -50,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -50,
-    //arc
+    //m arc
     "1size": 75,
     "1offsetx": 3,
     "1offsety": -10,
     "1start" : 180,
     "1stop" : 360,
-    //cut out
+    //m cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": -5,
     "4start" : 180,
     "4stop" : 360,
-    //baby stalk
+    //m baby stalk
     "5offsetx": 24,
     "5offsety": -25,
     "5offsetw": -30,
     "5offseth": -75,
-    //m
+    //m middle
     "7size": 90,
     "7offsetx": 0,
     "7offsety": 15,
@@ -246,37 +246,37 @@ const alphabet = {
     "7stop" : 290,
   },
   "N": {
-    //stalk
+    //n stalk
     "2offsetx": -50,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -50,
-    //arc
+    //n arc
     "1size": 75,
     "1offsetx": 3,
     "1offsety": -10,
     "1start" : 180,
     "1stop" : 360,
-    //cut out
+    //n cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": -5,
     "4start" : 180,
     "4stop" : 360,
-    //baby stalk
+    //n baby stalk
     "5offsetx": 24,
     "5offsety": -25,
     "5offsetw": -30,
     "5offseth": -75,
   },
   "O": {
-    //o bottom
+    //o
     "size": 70,
     "offsetx": 0,
     "offsety": 0,
     "start" : 0,
     "stop" : 360,
-    //bottom cut out
+    //o cut out
     "4size": 35,
     "4offsetx": 0,
     "4offsety": 0,
@@ -286,61 +286,44 @@ const alphabet = {
     
   },
   "P": {
-    // arc
+    //p arc
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
     "start" : 270,
     "stop" : 90,
-    //stalk
+    //p stalk
     "2offsetx": -50,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": 0
   },
   "Q": {
-    //d arc
+    //q arc
     "size": 60,
     "offsetx": 0,
     "offsety": 0,
     "start" : 90,
     "stop" : 270,
-    //stalk
+    //q stalk
     "2offsetx": 30,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": 0
   },
   "R": {
-    // //r stalk
-    // "5offsetx": -25,
-    // "5offsety": -25,
-    // "5offsetw": -30,
-    // "5offseth": -90,
-    // //r arc
-    // "size": 60,
-    // "offsetx": 5,
-    // "offsety": -5,
-    // "start" : 180,
-    // "stop" : 360,
-    // //r arc cut out
-    // "4size": 30,
-    // "4offsetx": 10,
-    // "4offsety": -4,
-    // "4start" : 180,
-    // "4stop" : 360,
-    //stalk
+    //r stalk
     "2offsetx": -50,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -50,
-    //arc
+    //r arc
     "1size": 75,
     "1offsetx": 3,
     "1offsety": -10,
     "1start" : 180,
     "1stop" : 360,
-    //cut out
+    //r cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": -5,
@@ -374,7 +357,7 @@ const alphabet = {
     "6stop" : 180,
   },
   "T": {
-    //cross
+    //t cross
     "2offsetx": -29,
     "2offsety": -50,
     "2offsetw": 10,
@@ -386,24 +369,24 @@ const alphabet = {
     "5offseth": 0,
   },
   "U": {
-    //stalk
+    //u stalk
     "2offsetx": -45,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -75,
-    //arc
+    //u arc
     "1size": 75,
     "1offsetx": 0,
     "1offsety": 10,
     "1start" : 360,
     "1stop" : 180,
-    //cut out
+    //u cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": 5,
     "4start" : 360,
     "4stop" : 180,
-    //baby stalk
+    //u baby stalk
     "5offsetx": 25,
     "5offsety": -50,
     "5offsetw": -30,
@@ -418,29 +401,29 @@ const alphabet = {
     "stop" : 240,
   },
   "W": {
-    //stalk
+    //w stalk
     "2offsetx": -45,
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -75,
-    //arc
+    //w arc
     "1size": 75,
     "1offsetx": 0,
     "1offsety": 10,
     "1start" : 360,
     "1stop" : 180,
-    //cut out
+    //w cut out
     "4size": 50,
     "4offsetx": 0,
     "4offsety": 5,
     "4start" : 360,
     "4stop" : 180,
-    //baby stalk
+    //w baby stalk
     "5offsetx": 25,
     "5offsety": -50,
     "5offsetw": -30,
     "5offseth": -75,
-    //w
+    //w middle
     "7size": 90,
     "7offsetx": 0,
     "7offsety": -15,
@@ -474,7 +457,7 @@ const alphabet = {
     "6stop" : 225,
   },
   "Y": {
-    //stalk
+    //y stalk
     "5offsetx": -8,
     "5offsety": -7,
     "5offsetw": -33,
@@ -578,13 +561,13 @@ const alphabet = {
     "6stop" : 0,
   },
   "3": {
-    // arc
+    //3 arc
     "size": 40,
     "offsetx": -5,
     "offsety": -10,
     "start" : 270,
     "stop" : 90,
-    // arc
+    //3 arc
     "1size": 40,
     "1offsetx": -5,
     "1offsety": 15,
@@ -622,25 +605,25 @@ const alphabet = {
     "stop" : 170,
   },
   "5": {
-    //4 right
+    //5 right
     "size": 80,
     "offsetx": -15,
     "offsety": -25,
     "start" : 360,
     "stop" : 65,
-    //4 right cut out
+    //5 right cut out
     "4size": 45,
     "4offsetx": 2,
     "4offsety": -15,
     "4start" : 360,
     "4stop" : 65,
-    //4 top
+    //5 top
     "1size": 50,
     "1offsetx": -10,
     "1offsety": 5,
     "1start" : 0,
     "1stop" : 180,
-    //4 top cut out
+    //5 top cut out
     "6size": 25,
     "6offsetx": -10,
     "6offsety": 4,
@@ -648,56 +631,56 @@ const alphabet = {
     "6stop" : 180,
   },
   "6": {
-    //0 bottom
+    //6 bottom
     "size": 40,
     "offsetx": 3,
     "offsety": 10,
     "start" : 0,
     "stop" : 360,
-    //0 bottom cut out
+    //6 bottom cut out
     "4size": 20,
     "4offsetx": 3,
     "4offsety": 10,
     "4start" : 0,
     "4stop" : 360,
-    //4 left
+    //6 left
     "2offsetx": -18,
     "2offsety": -30,
     "2offsetw": -36,
     "2offseth": -100,
   },
   "7": {
-    //4 right
+    //7 right
     "5offsetx": 3,
     "5offsety": -35,
     "5offsetw": -36,
     "5offseth": -80,
-    //cross
+    //7 cross
     "2offsetx": -29,
     "2offsety": -30,
     "2offsetw": -3,
     "2offseth": -135,
   },
   "8": {
-    //0 bottom
+    //8 bottom
     "size": 40,
     "offsetx": 0,
     "offsety": -15,
     "start" : 0,
     "stop" : 360,
-    //0 bottom cut out
+    //8 bottom cut out
     "4size": 15,
     "4offsetx": 0,
     "4offsety": -15,
     "4start" : 0,
     "4stop" : 360,
-    //0 top
+    //8 top
     "1size": 40,
     "1offsetx": 0,
     "1offsety": 20,
     "1start" : 0,
     "1stop" : 360,
-    //0 top cut out
+    //8 top cut out
     "6size": 15,
     "6offsetx": 0,
     "6offsety": 20,
@@ -705,19 +688,19 @@ const alphabet = {
     "6stop" : 360,
   },
   "9": {
-    //0 bottom
+    //9 bottom
     "size": 40,
     "offsetx": -3,
     "offsety": -10,
     "start" : 0,
     "stop" : 360,
-    //0 bottom cut out
+    //9 bottom cut out
     "4size": 20,
     "4offsetx": -3,
     "4offsety": -10,
     "4start" : 0,
     "4stop" : 360,
-    //4 left
+    //9 left
     "2offsetx": 0,
     "2offsety": -20,
     "2offsetw": -36,

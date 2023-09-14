@@ -4,8 +4,8 @@ var systemLineColor = "#000090";
 var systemBoxColor = "#00c800";
 
 /* internal constants */
-const darkBlue  = "#698f3f";
-const lightBlue  = "#bbe1c3";
+const darkGreen  = "#698f3f";
+const lightGreen  = "#bbe1c3";
 const strokeColor  = "#283618";
 
 /*
@@ -20,17 +20,7 @@ function drawLetter(letterData) {
   stroke(strokeColor);
   strokeWeight(4);
 
-  // determine parameters for second circle
-  // let size2 = letterData["size"];
-  // let pos2x = 50  + letterData["offsetx"];
-  // let pos2y = 150 + letterData["offsety"];
 
-
-  // // draw two circles
-  // fill(darkBlue);
-  // ellipse(50, 150, 75, 75);
-  // fill(lightBlue);
-  // ellipse(pos2x, pos2y, size2, size2);
 angleMode(DEGREES);
 
   //basic arc
@@ -88,32 +78,34 @@ angleMode(DEGREES);
   let stop7 = (letterData["6stop"]);
   
 
-  // dark blue arcs
-  fill(darkBlue);
+  // dark green circle base for all letters
+  fill(darkGreen);
   ellipse(50, 150, 90, 90);
-  //light blue arcs and rectangle
-  fill(lightBlue);
+
+  //light green arcs and rectangle for letters
+  fill(lightGreen);
   arc(posx2, posy2, size2, size2, start2, stop2);
   rect(posx3, posy3, posw3, posh3, 20);
   arc(posx1, posy1, size1, size1, start1, stop1);
   rect(posx6, posy6, posw6, posh6, 20);
-  //cut out arcs
+
+  //cut out arcs for letters
   fill("#214f4b");
   arc(posx4, posy4, size4, size4, start4, stop4);
-  //dark blue cut outs
-  fill(darkBlue);
+
+  //dark green cut outs for letters outside of the circle
+  fill(darkGreen);
   noStroke();
   arc(posx5, posy5, size5, size5, start5, stop5);
   arc(posx7, posy7, size7, size7, start7, stop7);
-  //light blue arc to cover the cut outs
-  fill(lightBlue);
+
+  //light green arc to cover the cut outs
+  fill(lightGreen);
   arc(posx8, posy8, size8, size8, start8, stop8);
-
-//end test
-
 
 
 }
+
 
 function interpolate_letter(percent, oldObj, newObj) {
   let new_letter = {};
@@ -169,7 +161,7 @@ function interpolate_letter(percent, oldObj, newObj) {
 
 
 var swapWords = [
-  "BROCCOLI",
+  "BROCCOLI", //Name of my font
   "CIRCULAR",
   "ACTUALLY",
   "ALPHABET",
