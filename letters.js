@@ -5,12 +5,6 @@ const alphabet = {
     "offsety": 0
   },
   "A": {
-    //old a
-    // "size": 60,
-    // "offsetx": 0,
-    // "offsety": 0,
-    // "start" : 180,
-    // "stop" : 360
     //a arc
     "size": 60,
     "offsetx": 0,
@@ -22,7 +16,6 @@ const alphabet = {
     "2offsety": -50,
     "2offsetw": -30,
     "2offseth": -50,
-
   },
   "B": {
     // arc
@@ -218,9 +211,9 @@ const alphabet = {
   "L": {
     //l stalk
     "2offsetx": -10,
-    "2offsety": -50,
+    "2offsety": -100,
     "2offsetw": -30,
-    "2offseth": -45,
+    "2offseth": 0,
   },
   "M": {
     //stalk
@@ -463,7 +456,7 @@ const alphabet = {
     "stop" : 45,
     //x right cut out
     "4size": 45,
-    "4offsetx": 20,
+    "4offsetx": 23,
     "4offsety": 0,
     "4start" : 310,
     "4stop" : 45,
@@ -475,7 +468,7 @@ const alphabet = {
     "1stop" : 225,
     //x left cut out
     "6size": 45,
-    "6offsetx": -20,
+    "6offsetx": -23,
     "6offsety": 0,
     "6start" : 130,
     "6stop" : 225,
@@ -557,12 +550,6 @@ const alphabet = {
     "5offsety": -35,
     "5offsetw": -35,
     "5offseth": -80,
-    //1 dash
-    // "size": 60,
-    // "offsetx": 0,
-    // "offsety": -35,
-    // "start" : 140,
-    // "stop" : 150,
   },
   "2": {
     //2 right

@@ -1,12 +1,12 @@
 /* these are optional special variables which will change the system */
-var systemBackgroundColor = "#caf0f8";
+var systemBackgroundColor = "#214f4b";
 var systemLineColor = "#000090";
 var systemBoxColor = "#00c800";
 
 /* internal constants */
-const darkBlue  = "#0077b6";
-const lightBlue  = "#90e0ef";
-const strokeColor  = "#03045e";
+const darkBlue  = "#698f3f";
+const lightBlue  = "#bbe1c3";
+const strokeColor  = "#283618";
 
 /*
  * Draw the letter given the letterData
@@ -98,7 +98,7 @@ angleMode(DEGREES);
   arc(posx1, posy1, size1, size1, start1, stop1);
   rect(posx6, posy6, posw6, posh6, 20);
   //cut out arcs
-  fill("#caf0f8");
+  fill("#214f4b");
   arc(posx4, posy4, size4, size4, start4, stop4);
   //dark blue cut outs
   fill(darkBlue);
@@ -167,35 +167,13 @@ function interpolate_letter(percent, oldObj, newObj) {
 
 
 
-//Ritas Rotation Variables. 
-
-// let new_letter = {};
-// let old_cirRot = oldObj["cirRot"];
-// let new_cirRot = newObj["cirRot"];
-// if (old_cirRot > new_cirRot) {
-//   new_cirRot = new_cirRot + 360;
-// }
-// new_letter["cirRot"] = map(percent, 0, 100, old_cirRot, new_cirRot);
-// new_letter["slant1"] = map(percent, 0, 100, oldObj["slant1"], newObj["slant1"]);
-// new_letter["rectTran0"] = map(percent, 0, 100, oldObj["rectTran0"], newObj["rectTran0"]);
-// new_letter["slant2Type"] = map(percent, 0, 100, oldObj["slant2Type"], newObj["slant2Type"]);
-// new_letter["rectTran1"] = map(percent, 0, 100, oldObj["rectTran1"], newObj["rectTran1"]);
-// new_letter["rectTranX2"] = map(percent, 0, 100, oldObj["rectTranX2"], newObj["rectTranX2"]);
-// new_letter["rectTranY2"] = map(percent, 0, 100, oldObj["rectTranY2"], newObj["rectTranY2"]);
-// new_letter["cirRad"] = map(percent, 0, 100, oldObj["cirRad"], newObj["cirRad"]);
-// new_letter["rectLen"] = map(percent, 0, 100, oldObj["rectLen"], newObj["rectLen"]);
-// new_letter["rectGap"] = map(percent, 0, 100, oldObj["rectGap"], newObj["rectGap"]);
-// new_letter["rectWidth"] = map(percent, 0, 100, oldObj["rectWidth"], newObj["rectWidth"]);
-// new_letter["cirStroke"] = map(percent, 0, 100, oldObj["cirStroke"], newObj["cirStroke"]);
-// new_letter["coverCir"] = map(percent, 0, 100, oldObj["coverCir"], newObj["coverCir"]);
-// return new_letter;
-// }
-
-
-
 
 var swapWords = [
-  "ABBAABBA",
-  "CAB?CAB?",
-  "BAAAAAAA"
+  "BROCCOLI",
+  "CIRCULAR",
+  "ACTUALLY",
+  "ALPHABET",
+  "EXPECTED",
+  "PROVIDED",
+  "QUESTION",
 ]
