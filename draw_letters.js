@@ -120,8 +120,79 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["size"]    = map(percent, 0, 100, oldObj["size"], newObj["size"]);
   new_letter["offsetx"] = map(percent, 0, 100, oldObj["offsetx"], newObj["offsetx"]);
   new_letter["offsety"] = map(percent, 0, 100, oldObj["offsety"], newObj["offsety"]);
+  new_letter["start"] = map(percent, 0, 100, oldObj["start"], newObj["start"]);
+  new_letter["stop"] = map(percent, 0, 100, oldObj["stop"], newObj["stop"]);
+
+  new_letter["1size"]    = map(percent, 0, 100, oldObj["1size"], newObj["1size"]);
+  new_letter["1offsetx"] = map(percent, 0, 100, oldObj["1offsetx"], newObj["1offsetx"]);
+  new_letter["1offsety"] = map(percent, 0, 100, oldObj["1offsety"], newObj["1offsety"]);
+  new_letter["1start"] = map(percent, 0, 100, oldObj["1start"], newObj["1start"]);
+  new_letter["1stop"] = map(percent, 0, 100, oldObj["1stop"], newObj["1stop"]);
+
+  new_letter["7size"]    = map(percent, 0, 100, oldObj["7size"], newObj["7size"]);
+  new_letter["7offsetx"] = map(percent, 0, 100, oldObj["7offsetx"], newObj["7offsetx"]);
+  new_letter["7offsety"] = map(percent, 0, 100, oldObj["7offsety"], newObj["7offsety"]);
+  new_letter["7start"] = map(percent, 0, 100, oldObj["7start"], newObj["7start"]);
+  new_letter["7stop"] = map(percent, 0, 100, oldObj["7stop"], newObj["7stop"]);
+
+  new_letter["3size"]    = map(percent, 0, 100, oldObj["3size"], newObj["3size"]);
+  new_letter["3offsetx"] = map(percent, 0, 100, oldObj["3offsetx"], newObj["3offsetx"]);
+  new_letter["3offsety"] = map(percent, 0, 100, oldObj["3offsety"], newObj["3offsety"]);
+  new_letter["3start"] = map(percent, 0, 100, oldObj["3start"], newObj["3start"]);
+  new_letter["3stop"] = map(percent, 0, 100, oldObj["3stop"], newObj["3stop"]);
+
+  new_letter["4size"]    = map(percent, 0, 100, oldObj["4size"], newObj["4size"]);
+  new_letter["4offsetx"] = map(percent, 0, 100, oldObj["4offsetx"], newObj["4offsetx"]);
+  new_letter["4offsety"] = map(percent, 0, 100, oldObj["4offsety"], newObj["4offsety"]);
+  new_letter["4start"] = map(percent, 0, 100, oldObj["4start"], newObj["4start"]);
+  new_letter["4stop"] = map(percent, 0, 100, oldObj["4stop"], newObj["4stop"]);
+  
+  new_letter["6size"]    = map(percent, 0, 100, oldObj["6size"], newObj["6size"]);
+  new_letter["6offsetx"] = map(percent, 0, 100, oldObj["6offsetx"], newObj["6offsetx"]);
+  new_letter["6offsety"] = map(percent, 0, 100, oldObj["6offsety"], newObj["6offsety"]);
+  new_letter["6start"] = map(percent, 0, 100, oldObj["6start"], newObj["6start"]);
+  new_letter["6stop"] = map(percent, 0, 100, oldObj["6stop"], newObj["6stop"]);
+
+  new_letter["2offsetx"] = map(percent, 0, 100, oldObj["2offsetx"], newObj["2offsetx"]);
+  new_letter["2offsety"] = map(percent, 0, 100, oldObj["2offsety"], newObj["2offsety"]);
+  new_letter["2offsetw"] = map(percent, 0, 100, oldObj["2offsetw"], newObj["2offsetw"]);
+  new_letter["2offseth"] = map(percent, 0, 100, oldObj["2offseth"], newObj["2offseth"]);
+
+  new_letter["5offsetx"] = map(percent, 0, 100, oldObj["5offsetx"], newObj["5offsetx"]);
+  new_letter["5offsety"] = map(percent, 0, 100, oldObj["5offsety"], newObj["5offsety"]);
+  new_letter["5offsetw"] = map(percent, 0, 100, oldObj["5offsetw"], newObj["5offsetw"]);
+  new_letter["5offseth"] = map(percent, 0, 100, oldObj["5offseth"], newObj["5offseth"]);
   return new_letter;
 }
+
+
+
+//Ritas Rotation Variables. 
+
+// let new_letter = {};
+// let old_cirRot = oldObj["cirRot"];
+// let new_cirRot = newObj["cirRot"];
+// if (old_cirRot > new_cirRot) {
+//   new_cirRot = new_cirRot + 360;
+// }
+// new_letter["cirRot"] = map(percent, 0, 100, old_cirRot, new_cirRot);
+// new_letter["slant1"] = map(percent, 0, 100, oldObj["slant1"], newObj["slant1"]);
+// new_letter["rectTran0"] = map(percent, 0, 100, oldObj["rectTran0"], newObj["rectTran0"]);
+// new_letter["slant2Type"] = map(percent, 0, 100, oldObj["slant2Type"], newObj["slant2Type"]);
+// new_letter["rectTran1"] = map(percent, 0, 100, oldObj["rectTran1"], newObj["rectTran1"]);
+// new_letter["rectTranX2"] = map(percent, 0, 100, oldObj["rectTranX2"], newObj["rectTranX2"]);
+// new_letter["rectTranY2"] = map(percent, 0, 100, oldObj["rectTranY2"], newObj["rectTranY2"]);
+// new_letter["cirRad"] = map(percent, 0, 100, oldObj["cirRad"], newObj["cirRad"]);
+// new_letter["rectLen"] = map(percent, 0, 100, oldObj["rectLen"], newObj["rectLen"]);
+// new_letter["rectGap"] = map(percent, 0, 100, oldObj["rectGap"], newObj["rectGap"]);
+// new_letter["rectWidth"] = map(percent, 0, 100, oldObj["rectWidth"], newObj["rectWidth"]);
+// new_letter["cirStroke"] = map(percent, 0, 100, oldObj["cirStroke"], newObj["cirStroke"]);
+// new_letter["coverCir"] = map(percent, 0, 100, oldObj["coverCir"], newObj["coverCir"]);
+// return new_letter;
+// }
+
+
+
 
 var swapWords = [
   "ABBAABBA",
