@@ -21,7 +21,7 @@ const alphabet = {
     "2offsetx": 30,
     "2offsety": -50,
     "2offsetw": -30,
-    "2offseth": -50
+    "2offseth": -50,
 
   },
   "B": {
@@ -43,7 +43,13 @@ const alphabet = {
     "offsetx": 0,
     "offsety": 0,
     "start" : 90,
-    "stop" : 270
+    "stop" : 270,
+    //c cut out
+    "4size": 35,
+    "4offsetx": 0,
+    "4offsety": 0,
+    "4start" : 90,
+    "4stop" : 270
   },
   "D": {
     //d arc
@@ -66,11 +72,17 @@ const alphabet = {
     "start" : 180,
     "stop" : 360,
     //e arc
-    "1size": 42,
-    "1offsetx": -5,
-    "1offsety": 12,
-    "1start" : 28.8,
-    "1stop" : 176.4
+    "1size": 50,
+    "1offsetx": 0,
+    "1offsety": 10,
+    "1start" : 360,
+    "1stop" : 180,
+    //cut out
+    "4size": 25,
+    "4offsetx": 0,
+    "4offsety": 10,
+    "4start" : 360,
+    "4stop" : 180,
   },
   "F": {
     //top arc
@@ -90,18 +102,11 @@ const alphabet = {
     "3offsety": -57,
     "3start" : 180,
     "3stop" : 360,
-    //bottom arc
-    "1size": 75,
-    "1offsetx": 3,
-    "1offsety": -10,
-    "1start" : 180,
-    "1stop" : 360,
-    //bottom cut out
-    "4size": 55,
-    "4offsetx": 3,
-    "4offsety": -9,
-    "4start" : 180,
-    "4stop" : 360,
+    //cross
+    "5offsetx": -29,
+    "5offsety": -30,
+    "5offsetw": 10,
+    "5offseth": -135,
   },
   "G": {
     //g
@@ -218,44 +223,58 @@ const alphabet = {
     "2offseth": -45,
   },
   "M": {
-    //m right
-    "size": 50,
-    "offsetx": 15,
-    "offsety": 10,
-    "start" : 180,
-    "stop" : 0,
-    //m right cut out
-    "4size": 25,
-    "4offsetx": 15,
-    "4offsety": 12,
-    "4start" : 180,
-    "4stop" : 0,
-    //m left
-    "1size": 50,
-    "1offsetx": -15,
-    "1offsety": 10,
+    //stalk
+    "2offsetx": -50,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -50,
+    //arc
+    "1size": 75,
+    "1offsetx": 3,
+    "1offsety": -10,
     "1start" : 180,
-    "1stop" : 0,
-    //m left cut out
-    "6size": 25,
-    "6offsetx": -15,
-    "6offsety": 12,
-    "6start" : 180,
-    "6stop" : 0,
+    "1stop" : 360,
+    //cut out
+    "4size": 50,
+    "4offsetx": 0,
+    "4offsety": -5,
+    "4start" : 180,
+    "4stop" : 360,
+    //baby stalk
+    "5offsetx": 24,
+    "5offsety": -25,
+    "5offsetw": -30,
+    "5offseth": -75,
+    //m
+    "7size": 90,
+    "7offsetx": 0,
+    "7offsety": 15,
+    "7start" : 250,
+    "7stop" : 290,
   },
   "N": {
-    //n
-    "size": 60,
-    "offsetx": 0,
-    "offsety": 10,
-    "start" : 180,
-    "stop" : 0,
-    //n cut out
-    "4size": 30,
+    //stalk
+    "2offsetx": -50,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -50,
+    //arc
+    "1size": 75,
+    "1offsetx": 3,
+    "1offsety": -10,
+    "1start" : 180,
+    "1stop" : 360,
+    //cut out
+    "4size": 50,
     "4offsetx": 0,
-    "4offsety": 11,
+    "4offsety": -5,
     "4start" : 180,
-    "4stop" : 0,
+    "4stop" : 360,
+    //baby stalk
+    "5offsetx": 24,
+    "5offsety": -25,
+    "5offsetw": -30,
+    "5offseth": -75,
   },
   "O": {
     //o bottom
@@ -263,25 +282,14 @@ const alphabet = {
     "offsetx": 0,
     "offsety": 0,
     "start" : 0,
-    "stop" : 180,
-    //0 bottom cut out
-    // "4size": 35,
-    // "4offsetx": 0,
-    // "4offsety": 0,
-    // "4start" : 0,
-    // "4stop" : 180,
-    //o top
-    "1size": 70,
-    "1offsetx": 0,
-    "1offsety": 0,
-    "1start" : 180,
-    "1stop" : 0,
-    //o top cut out
-    // "6size": 35,
-    // "6offsetx": 0,
-    // "6offsety": 0,
-    // "6start" : 180,
-    // "6stop" : 0,
+    "stop" : 360,
+    //bottom cut out
+    "4size": 35,
+    "4offsetx": 0,
+    "4offsety": 0,
+    "4start" : 0,
+    "4stop" : 360,
+    
     
   },
   "P": {
@@ -311,21 +319,38 @@ const alphabet = {
     "2offseth": 0
   },
   "R": {
-    //r stalk
-    "5offsetx": -25,
-    "5offsety": -25,
-    "5offsetw": -30,
-    "5offseth": -90,
-    //r arc
-    "size": 60,
-    "offsetx": 5,
-    "offsety": -5,
-    "start" : 180,
-    "stop" : 360,
-    //r arc cut out
-    "4size": 30,
-    "4offsetx": 10,
-    "4offsety": -4,
+    // //r stalk
+    // "5offsetx": -25,
+    // "5offsety": -25,
+    // "5offsetw": -30,
+    // "5offseth": -90,
+    // //r arc
+    // "size": 60,
+    // "offsetx": 5,
+    // "offsety": -5,
+    // "start" : 180,
+    // "stop" : 360,
+    // //r arc cut out
+    // "4size": 30,
+    // "4offsetx": 10,
+    // "4offsety": -4,
+    // "4start" : 180,
+    // "4stop" : 360,
+    //stalk
+    "2offsetx": -50,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -50,
+    //arc
+    "1size": 75,
+    "1offsetx": 3,
+    "1offsety": -10,
+    "1start" : 180,
+    "1stop" : 360,
+    //cut out
+    "4size": 50,
+    "4offsetx": 0,
+    "4offsety": -5,
     "4start" : 180,
     "4stop" : 360,
   },
@@ -358,28 +383,38 @@ const alphabet = {
   "T": {
     //cross
     "2offsetx": -29,
-    "2offsety": -10,
+    "2offsety": -50,
     "2offsetw": 10,
     "2offseth": -135,
     //t
     "5offsetx": -10,
+    "5offsety": -100,
+    "5offsetw": -30,
+    "5offseth": 0,
+  },
+  "U": {
+    //stalk
+    "2offsetx": -45,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -75,
+    //arc
+    "1size": 75,
+    "1offsetx": 0,
+    "1offsety": 10,
+    "1start" : 360,
+    "1stop" : 180,
+    //cut out
+    "4size": 50,
+    "4offsetx": 0,
+    "4offsety": 5,
+    "4start" : 360,
+    "4stop" : 180,
+    //baby stalk
+    "5offsetx": 25,
     "5offsety": -50,
     "5offsetw": -30,
     "5offseth": -50,
-  },
-  "U": {
-    //u
-    "size": 60,
-    "offsetx": 0,
-    "offsety": -5,
-    "start" : 0,
-    "stop" : 180,
-    //u cut out
-    "4size": 30,
-    "4offsetx": 0,
-    "4offsety": -6,
-    "4start" : 0,
-    "4stop" : 180,
   },
   "V": {
     //v
@@ -390,53 +425,57 @@ const alphabet = {
     "stop" : 240,
   },
   "W": {
-    //w right
-    "size": 50,
-    "offsetx": 15,
-    "offsety": -10,
-    "start" : 0,
-    "stop" : 180,
-    //w right cut out
-    "4size": 25,
-    "4offsetx": 15,
-    "4offsety": -12,
-    "4start" : 0,
-    "4stop" : 180,
-    //w left
-    "1size": 50,
-    "1offsetx": -15,
-    "1offsety": -10,
-    "1start" : 0,
+    //stalk
+    "2offsetx": -45,
+    "2offsety": -50,
+    "2offsetw": -30,
+    "2offseth": -75,
+    //arc
+    "1size": 75,
+    "1offsetx": 0,
+    "1offsety": 10,
+    "1start" : 360,
     "1stop" : 180,
-    //w left cut out
-    "6size": 25,
-    "6offsetx": -15,
-    "6offsety": -12,
-    "6start" : 0,
-    "6stop" : 180,
+    //cut out
+    "4size": 50,
+    "4offsetx": 0,
+    "4offsety": 5,
+    "4start" : 360,
+    "4stop" : 180,
+    //baby stalk
+    "5offsetx": 25,
+    "5offsety": -50,
+    "5offsetw": -30,
+    "5offseth": -75,
+    //w
+    "7size": 90,
+    "7offsetx": 0,
+    "7offsety": -15,
+    "7start" : 70,
+    "7stop" : 110,
   },
   "X": {
     //x right
-    "size": 70,
+    "size": 90,
     "offsetx": 0,
     "offsety": 0,
     "start" : 310,
     "stop" : 45,
     //x right cut out
-    "4size": 40,
-    "4offsetx": 15,
+    "4size": 45,
+    "4offsetx": 20,
     "4offsety": 0,
     "4start" : 310,
     "4stop" : 45,
     //x left
-    "1size": 70,
+    "1size": 90,
     "1offsetx": 0,
     "1offsety": 0,
     "1start" : 130,
     "1stop" : 225,
     //x left cut out
-    "6size": 40,
-    "6offsetx": -15,
+    "6size": 45,
+    "6offsetx": -20,
     "6offsety": 0,
     "6start" : 130,
     "6stop" : 225,
@@ -445,18 +484,18 @@ const alphabet = {
     //stalk
     "5offsetx": -8,
     "5offsety": -7,
-    "5offsetw": -35,
+    "5offsetw": -33,
     "5offseth": -100,
     //y left
     "1size": 70,
-    "1offsetx": 0,
-    "1offsety": 5,
+    "1offsetx": 10,
+    "1offsety": -5,
     "1start" : 300,
     "1stop" : 335,
     //y right
     "size": 70,
-    "offsetx": 0,
-    "offsety": 5,
+    "offsetx": -10,
+    "offsety": -5,
     "start" : 200,
     "stop" : 235,
   },

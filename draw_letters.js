@@ -47,6 +47,13 @@ angleMode(DEGREES);
   let start2 = (letterData["1start"]);
   let stop2 = (letterData["1stop"]);
 
+  //basic arc no.3
+  let size8= letterData["7size"];
+  let posx8 = 50 + letterData["7offsetx"];
+  let posy8 = 150 + letterData["7offsety"];
+  let start8 = (letterData["7start"]);
+  let stop8 = (letterData["7stop"]);
+
   //rectangle
   let posx3 = 50 + letterData["2offsetx"];
   let posy3 = 150 + letterData["2offsety"];
@@ -98,6 +105,9 @@ angleMode(DEGREES);
   noStroke();
   arc(posx5, posy5, size5, size5, start5, stop5);
   arc(posx7, posy7, size7, size7, start7, stop7);
+  //light blue arc to cover the cut outs
+  fill(lightBlue);
+  arc(posx8, posy8, size8, size8, start8, stop8);
 
 //end test
 
